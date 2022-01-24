@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return 'Hachimi';
-    if (score <= 99) return '东海帝王';
-    if (score <= 149) return '东帝海王';
-    if (score <= 199) return '北海龙王';
+    if (score <= 49) return '穿着衣服的猪';
+    if (score <= 99) return '一星极制服';
+    if (score <= 149) return '两星极制服';
+    if (score <= 199) return '三星极制服';
     return '人？';
 }
 
