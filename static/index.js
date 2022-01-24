@@ -343,8 +343,9 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '穿着衣服的猪';
     if (score <= 99) return '一星极制服';
-    if (score <= 149) return '两星极制服';
-    if (score <= 199) return '三星极制服';
+    if (score <= 129) return '两星极制服';
+    if (score <= 149) return '三星极制服';
+    if (score <= 199) return '神衣鲜血';
     return '人？';
 }
 
